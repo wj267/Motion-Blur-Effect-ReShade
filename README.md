@@ -27,7 +27,7 @@ A number field is provided to adjust the intensity by scaling up the difference 
 
 **Note:** This effect can cause pronounced flickering, especially at high scaling values. Use discretion.
 
-### Motion Delta
+### Motion Delta 2
 Calculates the change between the current and the average of the previous four frames, adds the difference to the current frame, then blends between the results.
 A slider is provided to adjust the intensity by changing the blend.
 A number field is provided to adjust the intensity by scaling up the difference between frames. Higher values will make bright objects brighter and leave shadows behind them.
