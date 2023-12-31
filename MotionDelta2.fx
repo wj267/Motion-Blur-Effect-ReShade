@@ -69,7 +69,7 @@ float4 PS_CopyP3(float4 vpos : SV_Position, float2 texcoord : TEXCOORD) : SV_Tar
 }
 
 
-technique MotionDelta2
+technique MotionDelta2_FlashingLightsWarning
 {
 	pass DoCopyCleanFrame
 	{
