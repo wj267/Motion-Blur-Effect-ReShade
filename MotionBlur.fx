@@ -29,7 +29,6 @@ float4 PS_MotionBlur(float4 vpos : SV_Position, float2 texcoord : TEXCOORD) : SV
 }
 float4 PS_CopyFrame(float4 vpos : SV_Position, float2 texcoord : TEXCOORD) : SV_Target
 {
-	//return tex2D(currColor, texcoord);
 	return tex2D(currColor, texcoord);
 }
 
