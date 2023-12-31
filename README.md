@@ -1,6 +1,13 @@
 # Motion-Blur-Effect-ReShade
 A basic motion blur effect written for ReShade
 
+## User Warning
+I think these effects are pretty interesting and potentially useful, but I have also found them to cause motion sickness and eyestrain during testing.
+
+The "Motion Delta" effects in particular can cause bright flickering lights which may be dangerous to those with Epilepsy.
+
+Please excercise discretion when using these effects.
+
 ## Attribution
 Skeleton taken from "Crosire" in this thread on the ReShade forums. I just defined what the Pixel Shader section should actually do.
 https://reshade.me/forum/shader-discussion/69-access-to-previous-frames
