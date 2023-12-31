@@ -47,7 +47,7 @@ float4 PS_CopyClean(float4 vpos : SV_Position, float2 texcoord : TEXCOORD) : SV_
 	return tex2D(cleanColor, texcoord);
 }
 
-technique MotionDelta
+technique MotionDelta_FlashingLightsWarning
 {
 	pass DoCopyCleanFrame
 	{
